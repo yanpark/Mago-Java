@@ -54,16 +54,4 @@ public abstract class Personagem implements EntrandoEmBatalha{
 	    public int forca_ini = 110;
 	    public int def_esp_ini = 120;
 	}
-	
-	public static void main(String[] args){
-		
-		Mago mago = new Mago();
-		mago("Gandalf", 1);
-		
-		mago.atacar();
-		mago.defender();
-	}
-	
-	private static void mago(String string, int i){
-	}
 }
