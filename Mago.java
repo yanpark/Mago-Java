@@ -79,9 +79,6 @@ public class Mago extends Personagem{
 		}
 	}
 	
-	public void atacar(boolean sucesso){
-	}
-	
 	public void defender(){
 		
 		System.out.printf(" %s armou a defesa\n\n", nome);

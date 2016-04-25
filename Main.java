@@ -5,12 +5,15 @@ public class Main {
 	boolean x;
 	
 	public static void main(){
-		Mago mago = new Mago();
-		Guerreiro guerreiro = new Guerreiro();
+		Wizard wiz = new Wizard();
+		Sorcerer sorc = new Sorcerer();
+		Ranger rang = new Ranger();
 		
-		mago.atacar();
-		mago.defender();
-		guerreiro.atacar();
-		guerreiro.defender();
+		wiz.atacar();
+		wiz.defender();
+		sorc.atacar();
+		sorc.defender();
+		rang.atacar();
+		rang.defender();
 	}
 }
